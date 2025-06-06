@@ -54,8 +54,8 @@ export function FloatingNav() {
           {isMobile ? (
             <div className="relative flex items-center justify-between">
               <Link href="/" className="font-bold text-lg">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Alex</span>
-                <span className="text-white">Chen</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Graham</span>
+                <span className="text-white">Usai</span>
               </Link>
               <Button
                 variant="ghost"
@@ -69,8 +69,8 @@ export function FloatingNav() {
           ) : (
             <div className="relative flex items-center gap-1">
               <Link href="/" className="font-bold text-lg mr-4">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Alex</span>
-                <span className="text-white">Chen</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Graham</span>
+                <span className="text-white">Usai</span>
               </Link>
               {navItems.map((item) => (
                 <Link
@@ -82,12 +82,15 @@ export function FloatingNav() {
                   {item.name}
                 </Link>
               ))}
-              <Button
+              <Link href="/pdf/Graham-Usai-CV.pdf" target="_blank">
+               <Button
                 size="sm"
                 className="ml-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0"
               >
                 Resume
               </Button>
+              </Link>
+             
             </div>
           )}
         </div>
