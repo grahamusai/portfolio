@@ -80,7 +80,7 @@ const About = () => {
                 <div className="space-y-1">
                   <div className="text-sm text-zinc-500">Availability</div>
                   <div className="font-medium text-green-500">
-                    Open to opportunities
+                    Open to opportunities.
                   </div>
                 </div>
               </div>
