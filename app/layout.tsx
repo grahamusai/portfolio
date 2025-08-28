@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Graham Usai Portfolio',
-  description: 'Good web developer in Kempton Park',
+  description: 'Software Developer and Designer Portfolio',
   keywords: 'Web Developer',
 }
 

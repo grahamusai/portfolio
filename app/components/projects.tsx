@@ -19,7 +19,7 @@ const Projects = () => {
               description="A full-stack e-commerce platform built with Next.js, Stripe, and Prisma."
               tags={["JSP", "Dupal", "Google Maps API"]}
               image="/images/nandos.png"
-              demoUrl="nandos.co.zw"
+              demoUrl="https://nandos.co.zw"
               repoUrl="#"
             />
             <ProjectCard
@@ -36,7 +36,7 @@ const Projects = () => {
               tags={["Next.js", "Laravel", "MongoDB"]}
               image="/images/brokers.png"
               demoUrl="#"
-              repoUrl="https://github.com"
+              repoUrl="https://github.com/grahamusai/broker-management-system "
             />
             <ProjectCard
               title="Trucking Management System"
