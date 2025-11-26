@@ -31,19 +31,19 @@ const Projects = () => {
               repoUrl="#"
             />
             <ProjectCard
-              title="Broker Management System"
-              description="A fullstack broker management system using Laravel, React, and MongoDB."
+              title="Property Advertising Platform"
+              description="A platform for connecting people buying and setting properties"
               tags={["Next.js", "Laravel", "MongoDB"]}
-              image="/images/brokers.png"
-              demoUrl="#"
+              image="/images/prop.png"
+              demoUrl="https://iadproperties.co.zw"
               repoUrl="https://github.com/grahamusai/broker-management-system "
             />
             <ProjectCard
-              title="Trucking Management System"
-              description="A comprehensive trucking management system for logistics companies."
+              title="Construction Company Website"
+              description="Professional Website for a construction company"
               tags={["Nextjs", "TypeScript", "AWS", "Firebase"]}
-              image="/images/loads.png"
-              demoUrl="https://loads.africa"
+              image="/images/stit.png"
+              demoUrl="https://stichingbridges.com"
               repoUrl="https://github.com/grahamusai/loads.africa"
             />
             <ProjectCard
